@@ -1,0 +1,18 @@
+.header {
+  background-color: #cddc39;
+  width: 100%;
+  height: 50px;
+  padding: 5px 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 0px 2px 19px #b8b8b8;
+  border-bottom: 1px solid #bfce32;
+}
+
+body > .container-fluid {
+  background-color: #fafafa;
+  width: 100%;
+  height: 100vh;
+  padding-top: 70px;
+}
