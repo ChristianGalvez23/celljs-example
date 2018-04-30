@@ -21,7 +21,18 @@
         crossorigin="anonymous"></script>
     <script src="https://www.celljs.org/cell.js"></script>
     <script>
-        var menuOptions = ["Home", "Section 1", "Section 2", "Section 3"];
+        var mypage = {
+            header: {
+                brand: {
+                    text: "Christian Galvez",
+                    image: false // can be a object specfying the url and alternative text
+                },
+                menu: {
+                    options: ["Home", "Section 1", "Section 2", "Section 3"],
+                    align: "right" // "left", "middle" and "right"
+                }
+            },
+        };
 
         function items(item) {
             return {
